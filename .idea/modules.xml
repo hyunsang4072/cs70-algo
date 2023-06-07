@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Gale-Shapley-Algo/Gale-Shapley-Algo.iml" filepath="$PROJECT_DIR$/Gale-Shapley-Algo/Gale-Shapley-Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gale-Shapley-Algo/GSA-incomplete.iml" filepath="$PROJECT_DIR$/Gale-Shapley-Algo/GSA-incomplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gale_Shapley_Algo/Gale_Shapley_Algo.iml" filepath="$PROJECT_DIR$/Gale_Shapley_Algo/Gale_Shapley_Algo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cs70-algo.iml" filepath="$PROJECT_DIR$/.idea/cs70-algo.iml" />
     </modules>
   </component>

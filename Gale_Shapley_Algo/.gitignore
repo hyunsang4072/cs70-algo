@@ -27,5 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-males.txt
-females.txt
+../Gale_Shapley_Algo/males.txt
+../Gale_Shapley_Algo/females.txt
