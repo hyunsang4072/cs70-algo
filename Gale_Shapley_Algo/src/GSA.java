@@ -20,6 +20,7 @@ public class GSA {
         womenPartner = new String[N];
         calcMatches();
     }
+    
     /** function to calculate all matches **/
     private void calcMatches()
     {
@@ -53,6 +54,7 @@ public class GSA {
         }
         printCouples();
     }
+
     /** function to check if women prefers new partner over old assigned partner **/
     private boolean morePreference(String curPartner, String newPartner, int index)
     {
@@ -65,6 +67,7 @@ public class GSA {
         }
         return false;
     }
+
     /** get men index **/
     private int menIndexOf(String str)
     {
@@ -73,6 +76,7 @@ public class GSA {
                 return i;
         return -1;
     }
+
     /** get women index **/
     private int womenIndexOf(String str)
     {
@@ -81,6 +85,7 @@ public class GSA {
                 return i;
         return -1;
     }
+
     /** print couples **/
     public void printCouples()
     {
@@ -91,28 +96,4 @@ public class GSA {
         }
     }
 
-    /** main function **/
-    public static void main(String[] args)
-    {
-        System.out.println("Gale Shapley Marriage Algorithm\n");
-        /** list of men **/
-        String[] m = {"M1", "M2", "M3", "M4", "M5"};
-        /** list of women **/
-        String[] w = {"W1", "W2", "W3", "W4", "W5"};
-
-        /** men preference **/
-        String[][] mp = {{"W5", "W2", "W3", "W4", "W1"},
-                {"W2", "W5", "W1", "W3", "W4"},
-                {"W4", "W3", "W2", "W1", "W5"},
-                {"W1", "W2", "W3", "W4", "W5"},
-                {"W5", "W2", "W3", "W4", "W1"}};
-        /** women preference **/
-        String[][] wp = {{"M5", "M3", "M4", "M1", "M2"},
-                {"M1", "M2", "M3", "M5", "M4"},
-                {"M4", "M5", "M3", "M2", "M1"},
-                {"M5", "M2", "M1", "M4", "M3"},
-                {"M2", "M1", "M4", "M3", "M5"}};
-
-        GSA gs = new GSA(m, w, mp, wp);
-    }
 }
