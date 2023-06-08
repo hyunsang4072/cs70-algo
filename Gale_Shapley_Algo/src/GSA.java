@@ -20,7 +20,7 @@ public class GSA {
         womenPartner = new String[N];
         calcMatches();
     }
-    
+
     /** function to calculate all matches **/
     private void calcMatches()
     {
